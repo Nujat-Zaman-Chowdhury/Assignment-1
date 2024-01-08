@@ -294,18 +294,29 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
-#portfolio .main-container .portfolio-title{
+#portfolio .portfolio-container{
+    
+    max-width: 1320px;
+    width: 82%;
+    border-radius: 8px;
+    height: 1200px;
+    
+}
+
+#portfolio .portfolio-container .portfolio-title{
     text-align: left; 
+    height: 20%;  
 }
-#portfolio .main-container .portfolio-title h3{
+#portfolio .portfolio-container .portfolio-title h3{
     color: #F00;
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
 
 }
-#portfolio .main-container .portfolio-title h2{
+#portfolio .portfolio-container .portfolio-title h2{
     color: #070211;
     font-family: Merriweather;
     font-size: 48px;
@@ -313,14 +324,83 @@ button{
     margin-top: 16px;
     margin-bottom: 22px;
 }
-#portfolio .main-container .porfolio-images{
-    gap: 24px;
+.portfolio-container .row{
+    display: flex; 
+    align-items: center;  
+}
+.row img{
+    width: 424px;
+    height: 450px;
+    
+ 
+}
+.row-img img{
+    margin: 6px;
+}
+.row-img img:hover{
+    transition: 1s;
+    transform: scale(1.1);
+    border-radius: 50%;
+}
+/* portfolio part end */
+
+/*Subscribe section start*/
+#subscribe .primary{
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
     
 }
+.subscribe-container{
+    
+    text-align: center;
+    padding: 56px;
+}
+.subscribe-container *{
+    margin: 10px;
+}
+.subscribe-container img{
+    width: 150px;
+    height: 150px;
+}
+.subscribe-container h1{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
 
-#portfolio .main-container .porfolio-images img{
-    width: 200px;
-    height: 200px
+}
+.subscribe-container .subscribe-input input[type=email]
+    {
+    display: inline;
+    justify-content: center;
+    border-radius: 50px 0 0px 50px;
+    background: #FFF;
+    border: none;
+    width: 600px;
+    height: 72px;
+    color: rgba(7, 2, 17, 0.30);
+    font-family: Inter;
+    font-size: 18px;
+    margin-right: -1px;
+    
+}
+.subscribe-input input::placeholder{
+        text-align: left;
+        padding: 25px 60px 25px 30px;      
 }
 
-
+.subscribe-container .subscribe-input input[type=submit]{
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    width: 210px;
+    height: 72px;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    margin-left: -1px;
+}
+/*Subscribe section end*/
