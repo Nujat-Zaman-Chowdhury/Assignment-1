@@ -4,6 +4,11 @@
     margin: 0;
     padding: 0;
     
+    
+}
+html,body{
+    width: 100%;
+    height: 100%;
 }
 section{
     margin-bottom: 120px;
@@ -31,7 +36,7 @@ button{
     
 }
 .primary{
-    max-width: 1320px;
+    max-width: 100%;
     border-radius: 16px;
     height: 600px;
     width: 82%;
@@ -404,3 +409,55 @@ button{
     margin-left: -1px;
 }
 /*Subscribe section end*/
+
+footer{
+    width: 100%;
+    height: 500px;
+    background-color: #070211;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    width: 80%;
+    height: 60%;
+    margin: 0px auto;
+    
+}
+.footer .part-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer .part-1 .footer-text{
+    width: 390px;
+}
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 30px 500px;
+    margin: 50px auto;
+    border-bottom:1px solid rgba(255, 255, 255, 0.15); 
+}
+.footer-icons img{
+    width: 54px;
+    height: 54px;
+    
+}
+
+.footer .footer-text{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.footer .part-2
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
