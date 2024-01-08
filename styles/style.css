@@ -5,6 +5,13 @@
     padding: 0;
     
 }
+p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+}
 button{
     padding: 18px 32px;
     border-radius: 8px;
@@ -153,6 +160,68 @@ button{
     margin-bottom: 10px;
 }
 /* party info part end */
+
+
+/* coming soon section start */
+#coming-soon .primary{
+    background-color: #FFF;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    
+}
+#coming-soon .primary .coming-soon-left-part{
+    
+    text-align: left;
+    margin-right: 70px;
+}
+#coming-soon .primary .coming-soon-left-part *{
+    margin-bottom: 18px;
+}
+#coming-soon .primary .coming-soon-right-part *{
+    margin-bottom: 18px;
+}
+#coming-soon .primary .coming-soon-left-part h3{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+#coming-soon .primary .coming-soon-left-part p{
+    width: 350px;
+}
+#coming-soon .primary .coming-soon-left-part h2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+.coming-soon-middle-part{
+    border-radius: 50%;
+    border: 15px solid #F00;
+    width: 364.844px;
+    height: 364.844px; 
+    padding: 2%;   
+}
+.coming-soon-middle-part .coming-soon-middle-part-img {  
+    background: url('../Assets/Ellipse\ 1.png') , no-repeat;
+    width: 364.844px;
+    height: 364.844px;    
+}
+#coming-soon .primary .coming-soon-right-part{
+    margin-left: 118px;
+}
+#coming-soon .primary .coming-soon-right-part h2{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+#coming-soon .primary .coming-soon-right-part img{
+    width: 140px;
+    height: 140px;
+}
 
 
 
