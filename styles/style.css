@@ -5,6 +5,15 @@
     padding: 0;
     
 }
+button{
+    padding: 18px 32px;
+    border-radius: 8px;
+    background: #F00;
+    border: none;
+    margin-top: 45px;
+    color: #FFF;
+    font-size: 20px;
+}
 /* main banner start*/
 .banner{
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) , url('../Assets/Banner\ Image.png'),no-repeat;
@@ -120,22 +129,30 @@
 .welcome-party-container-img img{
     margin: 65px 60px 65px 0;
 }
+
+/* party info part start */
 #party .primary{
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-#party .party-info {
-    height: 100%;
-    margin: 0 auto;
-    width: 500px;
-    display: block;
+#party .party-info .party-info-description{
     text-align: center;
-    background-color: #F00;
+  
 }
-#party .party-info-description{
-    background-color: crimson;
-    padding: 5px;
-    color: #FFF;
-    margin: 60px ;
-    margin: 0 auto;
+#party .party-info .party-info-description .color{
+    color: #F00;
 }
+.party-info-description h3{
+    color: #070211;
+    font-family: Inter;
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 56px;
+    margin-bottom: 10px;
+}
+/* party info part end */
+
+
 
