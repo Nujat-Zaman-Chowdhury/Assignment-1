@@ -6,10 +6,7 @@
     
     
 }
-html,body{
-    width: 100%;
-    height: 100%;
-}
+
 section{
     margin-bottom: 120px;
 }
@@ -26,17 +23,24 @@ button{
     border-radius: 8px;
     background: #F00;
     border: none;
-    margin-top: 45px;
+    margin-top: 20px;
     color: #FFF;
     font-size: 20px;
+    cursor: pointer;
 }
+button:hover{
+    transition: 1s;
+    color: #fff;
+    background-color: rgb(202, 2, 2);
+}
+
 /* main banner start*/
 .banner{
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) , url('../Assets/Banner\ Image.png'),no-repeat;
     
 }
 .primary{
-    max-width: 100%;
+    max-width: 1320px;
     border-radius: 16px;
     height: 600px;
     width: 82%;
@@ -53,12 +57,12 @@ button{
 .primary .banner-title h2{
     color: #FFF;
     margin-bottom: 16px;
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 400;
 }
 .primary .banner-title h1{
     color: #FFF;
-    font-size: 72px;
+    font-size: 64px;
     font-weight: 900;
     line-height: 95px;
 }
