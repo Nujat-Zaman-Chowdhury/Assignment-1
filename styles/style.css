@@ -320,7 +320,9 @@ button:hover {
 /* holiday section end */
 
 /* portfolio part staart */
-
+span{
+  color: #f00;
+}
 #portfolio .portfolio-container {
   width: 100%;
   height: 100%;
