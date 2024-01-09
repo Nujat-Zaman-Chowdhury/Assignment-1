@@ -311,7 +311,7 @@ button:hover {
   height: 70%;
   display: flex;
   background: url("../Assets/Group\ 44.png"), url("../Assets/Rectangle\ 1.png"),
-    url("/Assets/Group\ 75.png"), url("../Assets/Rectangle\ 2.png");
+    url("../Assets/Group\ 75.png"), url("../Assets/Rectangle\ 2.png");
   background-position: 75% 35%, right 26%, 10% bottom, bottom;
   background-size: 150px 150px, 250px 250px, 390px 290px, 100% 30%;
   background-repeat: no-repeat;
